@@ -18,20 +18,17 @@
 ### Markdown
 
 - 마크다운을 쓰는 이유는?
-  개발자로서 프로그램을 구현하다 보면 문서작업을 할 경우가 많이 있는데 이를 위해 문서의 구조와 내용을 쉽고 빠르게 나타내기 위함.
-  
+  개발자로서 프로그램을 구현하다 보면 문서작업을 할 경우가 많이 있는데 이를 위해 문서의 구조와 내용을 쉽고 빠르게 나타내기 위함.<br>
   **개발의 코드를 문서답게**
   
-- README.md
-  
+- README.md<br>
   md는 마크다운의 준말
   
   - md 명령어
-  
     - **#** : 제목표시, 1개부터 6개까지 사용가능
     
     - 리스트
-    
+  
       - **1., 2., ... **: 순서가 있는 리스트
       - **- or * **: 순서가 없는 리스트
         - tab 키를 써서 하위 리스트 생성 가능
@@ -40,13 +37,13 @@
       **\```{사용언어}```**
     
       ```python
-      print("Hellow world!!")
+      print("Hello world!!")
       # python 코드블럭 사용 예시 
       ```
     
       ` 을 양쪽에 한개씩 붙여서 
     
-       문장안에 코드블럭 `print("Hellow")` 을 넣는 것도 가능.
+       문장안에 코드블럭 `print("Hello")` 을 넣는 것도 가능.
     
     - 링크 넣기
       
@@ -54,22 +51,16 @@
     
       예시)  \[네이버](https://www.naver.com) => [네이버](https://www.naver.com)
       
-    - 이미지 넣기
-      
+    - 이미지 넣기<br>
       **\[스트링(없어도됨)](이미지 경로)**
       
-    - 텍스트 관련
-      
-      볼드체 : \*\*문자열** or \__문자열__ =  **문자열**
-      
-      이텔릭 : \*문자열\* or \_문자열\_ = *문자열*
-    
-      취소선 : \~~문자열~~ = ~~문자열~~
-      
+    - 텍스트 관련<br>
+      볼드체 : \*\*문자열** or \__문자열__ =  **문자열**<br>
+      이텔릭 : \*문자열\* or \_문자열\_ = *문자열*<br>
+      취소선 : \~~문자열~~ = ~~문자열~~<br>
       다 한꺼번에 적용 가능 : *__~~문자열~~__*
       
-    - 수평선
-      
+    - 수평선<br>
       --- or --- or ***
       
     - 수직선 : >
@@ -99,18 +90,15 @@
     
     - **현재 디렉토리**는 **작업디렉토리**라고도 하며 **wd**로도 나타냄.
     
-    - **절대 경로와 상대경로** : 절대 경로는 모든 경로가 다 기입된 것이고 상대 경로는 wd를 기준으로 특정디렉토리의 상대적경로를 기입한 것.
-    
+    - **절대 경로와 상대경로** : 절대 경로는 모든 경로가 다 기입된 것이고 상대 경로는 wd를 기준으로 특정디렉토리의 상대적경로를 기입한 것.<br>
       예를 들어 wd가 C:/Users 이고 특정 디렉토리의 경로가 C:\Users\gbj\Desktop\dev 라면, 상대경로는 gbj\Desktop\dev 가 된다.
   
 - Repository 만들기
-  - Repository (이하 Repo)는 Local Repo 와 Remote Repo로 나뉜다.
-  
+  - Repository (이하 Repo)는 Local Repo 와 Remote Repo로 나뉜다.<br>
     **로컬**은 우리가 사용하고 있는 컴퓨터를 생각하면 되고
-    **원격**은 대표적으로 깃헙을 생각하면 된다.
-  
-    깃을 통해 로컬 Repo을 만들어야 한다.
-
+    **원격**은 대표적으로 깃헙을 생각하면 된다.<br>
+    깃을 통해 로컬 Repo을 만들어야 한다.<br>
+<br>
 
 - commit 하기
 
@@ -119,13 +107,13 @@
   - 커밋은 3가지 영역을 바탕으로 동작한다.
     wd   ->   staging dir   ->   Repo
 
-  - staging dir 은 왜 존재하는가? __ 잘 이해 안됨
+  - staging area 은 왜 존재하는가? __ 잘 이해 안됨
 
     커밋이 파일자체가 아닌 특정버전으로 관리하고 싶은 wd의 수정사항을 저장하는건데.. 이게 없으면 wd내의 배포하고 싶지 않은 버전의 파일들은 따로 다른 dir에 보관해야됨. ,,,,,, 그냥 따로 보관하면 되지않나..?
 
   커밋과정
 
-  - 파일을 만든다.   -  지금 상태는 untracked 상태 = 깃이 추적하지 않는/관리하지 않는 상태  -  git add 를 이용해 이 파일을 staging dir 로 옮긴다( = staged 한다.)  -  파일의 상태가 tracked로 변함. = 깃이 추적하는/관리하는 상태  -  git commit 을 이용해 Repo에 commit 한다.
+  - 파일을 만든다.   -  지금 상태는 untracked 상태 = 깃이 추적하지 않는/관리하지 않는 상태  -  git add 를 이용해 이 파일을 staging area 로 옮긴다( = staged 한다.)  -  파일의 상태가 tracked로 변함. = 깃이 추적하는/관리하는 상태  -  git commit 을 이용해 Repo에 commit 한다.
 
   1. git init
      깃을 통해 관리하고자 하는 dir를 로컬Repo로 만들기위해 맨처음 한번만 해주면 되는 부분.
@@ -150,12 +138,11 @@
      
      메세지 부분을 적지 않으면 커밋이 되지 않는것 같은데 잘은 모르겠다.
 
-  - git status
+  - git status<br>
+    현재 Local Repo 의 상태를 확인할 수 있다.<br>
+    *습관처럼 입력해보는게 좋다.*
 
-    dir의 상태를 보여줌.
-
-  - git log
-    
+  - git log<br>
     커밋 기록을 보여줌
     
   - git log --oneline\n커밋기록 중 중요한(?) 부분만 보여줌
@@ -177,14 +164,48 @@
      1. git add {파일명.확장자}
      2. git commit -m "커밋 메세지"
      3. git push origin master : 깃 헙 페이지에 업로드 (push 는 업로드의 개념)
-        - git push -u origin master : -u 는 -u 이하의, 즉 여기서는 origin master 를 기본값으로 설정한단뜻, 이거 한번이라도 적용하면 그이후에는 git push 까지만 쳐도 push됨
+        - git push -u origin master : -u 는 -u 이하의, 즉 여기서는 origin master 를 기본값으로 설정한단뜻, 이거 한번이라도 적용하면 그이후에는 git push 까지만 쳐도 push됨<br>
+  <br>
 
   - push, clone, pull
     - push : 업로드의 개념
     - clone : 다운로드의 개념
-      다른 사람이 만든 Repo를 자신의 Local로 가져올려고
+      다른 사람이 만든 Repo를 자신의 Local로 가져올려고<br>
       git colne {다운받을 Repo 주소 url}
-    - pull : 업데이트의 개념
-      항상 push 전에는 항상 push 전에는 pull 을 한다.
-      왜? 다른사람이 먼저 뭔가를 수정해서 커밋했을 수도 있으니깐 버전충돌 방지
-      pull push 풀푸시 기억하자.
+    - pull : 업데이트의 개념<br>
+      git pull origin mater<br>
+      항상 push 전에는 항상 push 전에는 pull 을 한다.<br>
+      왜? 다른사람이 먼저 뭔가를 수정해서 커밋했을 수도 있으니깐 버전충돌 방지<br>
+      pull push 풀푸시 기억하자.<br>
+      <br>
+
+- git 과 github
+  git은 분산 버전 관리 시스템이고
+  github은 git 을 이용하는 클라우드 서비스
+
+- branch<br>
+  아직 개념이 좀 어려움.<br>
+  github 의 좋은 점이 서로다른 branch 를 이용해서 병렬적인 작업이 가능하다는 점인데, 병렬적인 작업 후 이를 병합하는 과정(merging)을 이해 하기 위해서는 branch를 "가지"라고 이해하기 보다는 **"pointer"** 라고 생각하는게 좋다.<br>
+  branch 의 merge 는 "합친다"라기 보다는 pointer 를 옮긴다. 바라보고 있는 곳을 옮긴다는 의미로 다가가야 이해하기 쉽다.<br>
+  merging 방법에는<br>
+  fast foreard merging 과 3-way merging 이 있다.
+
+- **.gitignore**
+
+  github 에 올리고 싶지 않는 파일(개인정보 같은..?)이 있다면 dir 에 .gitignore 을 추가해주면 된다.
+
+  **주의 사항**<br>
+  ~~Local Repo 만들고  커밋..하기전에 먼저 만들어야 한다.<br>
+  왜냐, git이 한번 관리하기 시작한 파일은 더 이상 무시할 수 없기 때문~~
+
+
+  .gitignore 생성 타이밍이 궁금// .gitignore 에 추가하는건 커밋하기전에 추가한 파일들만 적용된다는거 확인했음.(add 까지 ㄱㅊ)
+  
+  질문 사이트
+https://syllaverse.com/courses/11
+
+  ---
+  ### PYTHON
+  - requests 모듈 사용하기
+
+
