@@ -12,7 +12,10 @@
 ---
 
 ### 알고리즘
-
+deque<br>
+a_list = []
+deque(a_list) = a_list 의 리스트를 데크로 사용한다.
+deque([]) = [] 임마를 데크로 사용한다.
 ---
 
 ### Markdown
