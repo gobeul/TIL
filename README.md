@@ -12,10 +12,9 @@
 ---
 
 ### 알고리즘
-deque<br>
-a_list = []
-deque(a_list) = a_list 의 리스트를 데크로 사용한다.
-deque([]) = [] 임마를 데크로 사용한다.
+- [deque 자료구조](https://github.com/gobeul/TIL/tree/master/algorithm/deque.md)
+
+
 ---
 
 ### Markdown
@@ -209,6 +208,6 @@ https://syllaverse.com/courses/11
 
   ---
   ### PYTHON
-  - requests 모듈 사용하기
+  - [requests 모듈 사용하기](https://github.com/gobeul/TIL/tree/master/Python/module_requests.md)
 
 
