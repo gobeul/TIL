@@ -208,6 +208,8 @@ https://syllaverse.com/courses/11
 
   ---
   ### PYTHON
+  - [변수](https://github.com/gobeul/TIL/tree/master/Python/variable.md)
+  - [자료형 분류](https://github.com/gobeul/TIL/tree/master/Python/datatype_classification.md)
   - [requests 모듈 사용하기](https://github.com/gobeul/TIL/tree/master/Python/module_requests.md)
 
 
