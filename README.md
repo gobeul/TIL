@@ -13,6 +13,7 @@
 
 ### 알고리즘
 - [deque 자료구조](https://github.com/gobeul/TIL/tree/master/algorithm/deque.md)
+- [유클리드 호제법_ 초대공약수(GCD)와 최소공배수(LCM)](https://github.com/gobeul/TIL/tree/master/algorithm/euclidean_algorithm.md)
 
 
 ---
@@ -104,6 +105,7 @@ https://syllaverse.com/courses/11
   - [기초](https://github.com/gobeul/TIL/tree/master/Python/basics.md)
   - [변수](https://github.com/gobeul/TIL/tree/master/Python/variable.md)
   - [자료형 분류](https://github.com/gobeul/TIL/tree/master/Python/datatype_classification.md)
+  - [제어문](https://github.com/gobeul/TIL/tree/master/Python/control_statement.md)
   - [컨테이너](https://github.com/gobeul/TIL/tree/master/Python/container.md)
     - [리스트](https://github.com/gobeul/TIL/tree/master/Python/container_list.md)
     - [튜플](https://github.com/gobeul/TIL/tree/master/Python/container_tuple.md)
@@ -113,4 +115,7 @@ https://syllaverse.com/courses/11
   - [형변환](https://github.com/gobeul/TIL/tree/master/Python/typecasting.md)
   - [requests 모듈 사용하기](https://github.com/gobeul/TIL/tree/master/Python/module_requests.md)
 
-
+---
+알아보기
+for 문은 시퀀스를 순회하는 반복문이다.<br>
+그런데 비시퀀스인 set도 for 문에 적용이 된다.

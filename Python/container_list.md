@@ -26,3 +26,19 @@ print(boxes[2][-1])
 print(boxes[-1][1][0])
 >> d
 ```
+
+### list comprehension
+리스트 구조안에 제어, 조건문 등을 넣어 리스트를 만드는 방법.
+
+형태 : `[코드 for 변수 in 시퀀스 컨테이너]`
+```python
+a = [num*5 for num in range(5)]
+print(a)
+>> [0, 5, 10, 15, 20]
+
+# if절도 추가할 수 있다.
+a = [num*5 for num in range(5) if num > 2]
+# num 이 2보다 크다면 5를 곱해서 리스트에 추가.
+print(a)
+>> [15, 20]
+```
