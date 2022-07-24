@@ -72,3 +72,23 @@ deq.rotate(-1) # 음수의 경우 방향을 바꾼다 [0]의 요소를 [-1]쪽�
 print(deq)
 >> deque(['y', 't', 'h', 'o', 'n', 'p'])
 ```
+
+4. sort(  )  는 사용할 수 없다.
+
+```python
+deq = deque(['p', 'y', 't', 'h', 'o', 'n'])
+deq.sort()
+print(deq)
+>> error
+
+deq = list(deq)
+deq.sort()
+print(deq)
+>> ['h', 'n', 'o', 'p', 't', 'y']
+```
+
+
+---
+### 관련문제
+- [백준 2747번](https://www.acmicpc.net/problem/2747)
+- [백준 2309번](https://www.acmicpc.net/problem/2309)
