@@ -102,15 +102,23 @@ https://syllaverse.com/courses/11
   ---
   ### PYTHON
   - [기초](https://github.com/gobeul/TIL/tree/master/Python/basics.md)
+  - [범위(Scope)](https://github.com/gobeul/TIL/tree/master/Python/Scope.md)
   - [변수](https://github.com/gobeul/TIL/tree/master/Python/variable.md)
   - [자료형 분류](https://github.com/gobeul/TIL/tree/master/Python/datatype_classification.md)
+  - 지능형 리스트
   - [컨테이너](https://github.com/gobeul/TIL/tree/master/Python/container.md)
     - [리스트](https://github.com/gobeul/TIL/tree/master/Python/container_list.md)
     - [튜플](https://github.com/gobeul/TIL/tree/master/Python/container_tuple.md)
     - [레인지](https://github.com/gobeul/TIL/tree/master/Python/container_range.md)
     - [세트](https://github.com/gobeul/TIL/tree/master/Python/container_set.md)
     - [딕셔너리](https://github.com/gobeul/TIL/tree/master/Python/container_dictionary.md)
+  - [함수](https://github.com/gobeul/TIL/tree/master/Python/function.md)
+    - [packing 과 unpacking](https://github.com/gobeul/TIL/tree/master/Python/function_packing.md)
+    - [map](https://github.com/gobeul/TIL/tree/master/Python/function_map.md)
+    - [filter](https://github.com/gobeul/TIL/tree/master/Python/function_filter.md)
+    - [zip](https://github.com/gobeul/TIL/tree/master/Python/function_zip.md)
+    - [lambda](https://github.com/gobeul/TIL/tree/master/Python/function_lambda.md)
   - [형변환](https://github.com/gobeul/TIL/tree/master/Python/typecasting.md)
   - [requests 모듈 사용하기](https://github.com/gobeul/TIL/tree/master/Python/module_requests.md)
-
+  - [json 으로 자료 읽어오기](https://github.com/gobeul/TIL/tree/master/Python/module_json.md)
 
