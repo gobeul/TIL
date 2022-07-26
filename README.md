@@ -104,6 +104,12 @@ https://syllaverse.com/courses/11
   ---
   ### PYTHON
   - [기초](https://github.com/gobeul/TIL/tree/master/Python/basics.md)
+  - 메서드
+    - [문자열(string)](https://github.com/gobeul/TIL/tree/master/Python/method_string.md)
+    - [list](https://github.com/gobeul/TIL/tree/master/Python/method_list.md)
+    - [set](https://github.com/gobeul/TIL/tree/master/Python/method_set.md)
+    - [tuple](https://github.com/gobeul/TIL/tree/master/Python/method_tuple.md)
+    - [dictionary](https://github.com/gobeul/TIL/tree/master/Python/method_dictionary.md)
   - [범위(Scope)](https://github.com/gobeul/TIL/tree/master/Python/Scope.md)
   - [변수](https://github.com/gobeul/TIL/tree/master/Python/variable.md)
   - [자료형 분류](https://github.com/gobeul/TIL/tree/master/Python/datatype_classification.md)
