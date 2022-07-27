@@ -112,6 +112,7 @@ https://syllaverse.com/courses/11
     - [dictionary](https://github.com/gobeul/TIL/tree/master/Python/method_dictionary.md)
   - [범위(Scope)](https://github.com/gobeul/TIL/tree/master/Python/Scope.md)
   - [변수](https://github.com/gobeul/TIL/tree/master/Python/variable.md)
+  - [얕은 복사 / 깊은 복사](https://github.com/gobeul/TIL/tree/master/Python/python_copy.md)
   - [자료형 분류](https://github.com/gobeul/TIL/tree/master/Python/datatype_classification.md)
   - 지능형 리스트
   - [컨테이너](https://github.com/gobeul/TIL/tree/master/Python/container.md)
@@ -129,6 +130,7 @@ https://syllaverse.com/courses/11
   - [형변환](https://github.com/gobeul/TIL/tree/master/Python/typecasting.md)
   - [requests 모듈 사용하기](https://github.com/gobeul/TIL/tree/master/Python/module_requests.md)
   - [json 으로 자료 읽어오기](https://github.com/gobeul/TIL/tree/master/Python/module_json.md)
+  - [OOP 객체지향프로그래밍](https://github.com/gobeul/TIL/tree/master/Python/python_oop.md)
 
   ---
 
