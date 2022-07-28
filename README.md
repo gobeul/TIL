@@ -131,6 +131,8 @@ https://syllaverse.com/courses/11
   - [requests 모듈 사용하기](https://github.com/gobeul/TIL/tree/master/Python/module_requests.md)
   - [json 으로 자료 읽어오기](https://github.com/gobeul/TIL/tree/master/Python/module_json.md)
   - [OOP 객체지향프로그래밍](https://github.com/gobeul/TIL/tree/master/Python/python_oop.md)
+    - 클래스 메서드와 스태틱 메서드의 차이..!
+    - 
 
   ---
 
