@@ -133,6 +133,6 @@ https://syllaverse.com/courses/11
   - [OOP 객체지향프로그래밍](https://github.com/gobeul/TIL/tree/master/Python/python_oop.md)
     - 클래스 메서드와 스태틱 메서드의 차이..!
     - [문법](https://github.com/gobeul/TIL/tree/master/Python/python_oop_grammar.md)
-
+    - [OOP의 핵심 개념 - 추상화, 상속, 다형성, 캡슐화](https://github.com/gobeul/TIL/tree/master/Python/python_oop_core.md)
   ---
 
