@@ -134,5 +134,43 @@ https://syllaverse.com/courses/11
     - 클래스 메서드와 스태틱 메서드의 차이..!
     - [문법](https://github.com/gobeul/TIL/tree/master/Python/python_oop_grammar.md)
     - [OOP의 핵심 개념 - 추상화, 상속, 다형성, 캡슐화](https://github.com/gobeul/TIL/tree/master/Python/python_oop_core.md)
-  ---
+  
+<br>
 
+---
+### WEB
+- [웹 사이트](https://github.com/gobeul/TIL/tree/master/WEB/web_site.md)
+웹사이트란 브라우저를 통해서 접속하는 웹 페이지(문서)들의 모음을 말하며 "링크"를 통해서 여러 웹 페이지를 연결한것을 뜻한다.
+- [HTML](https://github.com/gobeul/TIL/tree/master/WEB/HTML.md)
+Hyoer Text Markdown Language
+
+p 태그, span 태그 차이가 뭐지
+p = 패러그래프 = 본문 ( 한줄 다씀. = 블록요소)
+span = 인라인에 대표적 (한줄 다 안씀 = 인라인)
+a 태그도 인라인 링크 옆에 글이 쭉 가는 경우가 많잖아
+
+h7 태그는 없기때문에 쓰면 그냥 효과 없이 처리됨.(에러는 안남.)
+
+div 의미없는 블록 컨테이너.
+
+input 태그에 오토포커스 이거 뭐냐 = 자동으로 인풋하는 곳에 커서가 들어가지게 하는것
+
+디져블드 : 인풋값 못바뀌게 함.
+
+get 방식과 post 방식의 차이
+
+id 선택자는 유일하다?
+id="한개"
+class="한개 두개 세개 ..."
+
+
+id선택자는 js 에서 많이 써서 css에서는 안쓰는게 좋다고함
+
+
+
+name 변수의 역할은 나중에 장고가서 쓸건데 form 에서 데이터를 주면 그게 네임변수에 저장되기 때문에 값을 불러오거나 할때 네임변수를 써야함.
+
+
+p:nth-child(n) : id 안에 n번째 태그가 p태그면 적용합니다.
+
+p:nth-of-type(n) : id 안에 p태그만 세어서 n번째 태그에 적용합니다. 
