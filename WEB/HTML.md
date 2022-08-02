@@ -131,3 +131,30 @@ enctype : 메서드가 POST 방식인 경우 데이터의 유형
 
 
 #### input
+~~ 강의실 컴ㅋ퓨에서 푸시 안했네
+
+
+type = 문자에대한 입력(text) 뿐만아니라 체크박스등도 활성화 할 수 있다.
+
+#### input label
+label 을 클릭하여 input에 초점을 맞추거나 활성화 시킨다.<br>
+`<input>`의 id 속성을 `<label>`에서는 for 속성을 서로 일치시켜 연결한다.<br>
+```HTML
+<label for="id-info">아이디를 입력하세요.</label>
+<input type="text" name="userid" id="id-info">
+```
+
+#### input - type
+`<input type="ooo">`<br>
+`text` : 일반 텍스트 입력한다. <br>
+`password` : 입력시 값을 특수기호(*)로 숨겨준다.<br>
+`email` : 이메일 형식이 아니라면 form 이 불가능하다. <br>
+`number` : min, max, step 속성을 이용하여 숫자범위 설정 가능하다.<br>
+`file` : accept 속성을 활용하여 파일 탑입을 지정한다.<br>
+`checkbox` : 체크박스를 생성한다. 동일한 항목의 여러 선택지인 경우에는 네임변수를 같게, value 값을 다르게 지정해야 한다. (중복체크 활용)<br>
+`radio` : 동그란 체크박스를 생성한다. (중복체크가 아닌 단일 선택일 경우 사용한다.)<br>
+`color picker, date picker ... ` : 여러 종류의 선택창을 보여준다.<br>
+`hidden`: 사용자 입력은 필요없지만 보내야할 데이터가 있을때 이를 사용자에게 보이지 않도록 숨겨준다.<br>
+
+그 외 다양한 유형에 대해서는 [MDN](https://developer.mozilla.org/ko/docs/Web/HTML/Element/Input) 참고
+
