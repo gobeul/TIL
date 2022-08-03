@@ -1,0 +1,17 @@
+### nth-child(n) vs nth-of-type(n)
+
+```HTML
+예시
+선택자A > 선택자B:nth-child(2) {
+  color: blue;
+}
+
+선택자A > 선택자B:nth-of-type(3) {
+	color: red;
+}
+```
+`선택자A > 선택자B:nth-child(2)`는 선택자A 안에있는 모든 태그 중 2번째(가로안 숫자)태그가 선택자B태그라면 속성값을 적용한다.
+
+`선택자A > 선택자B:nth-of-type(3)`는 선택자A 안에 있는 선택자B 태그중 3번째 태그(선택자B만 수를 센다.)에게 속성값을 적용한다.
+
+
