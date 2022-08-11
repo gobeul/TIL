@@ -12,11 +12,15 @@
 ---
 
 ### 알고리즘
+- [2차원 배열 팁](https://github.com/gobeul/TIL/tree/master/algorithm/two_arr_tip.md)
 - [유클리드 호제법_ 초대공약수(GCD)와 최소공배수(LCM)](https://github.com/gobeul/TIL/tree/master/algorithm/euclidean_algorithm.md)
-- [정렬 : 버블정렬(bubble sort)](https://github.com/gobeul/TIL/tree/master/algorithm/bubble_sort.md)
-- [정렬 : 카운팅정렬(counting sort)](https://github.com/gobeul/TIL/tree/master/algorithm/counting_sort.md)
+- [정렬 : 버블 정렬(bubble sort)](https://github.com/gobeul/TIL/tree/master/algorithm/bubble_sort.md)
+- [정렬 : 카운팅 정렬(counting sort)](https://github.com/gobeul/TIL/tree/master/algorithm/counting_sort.md)
+- [정렬 : 선택 정렬(counting sort)](https://github.com/gobeul/TIL/tree/master/algorithm/selection_sort.md)
 - [deque 자료구조](https://github.com/gobeul/TIL/tree/master/algorithm/deque.md)
 - [sort()](https://github.com/gobeul/TIL/tree/master/algorithm/sort.md)
+- [비트연산자]
+- [검색]
 
 
 ---
