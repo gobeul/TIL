@@ -21,7 +21,10 @@
 - [sort()](https://github.com/gobeul/TIL/tree/master/algorithm/sort.md)
 - [비트연산자]
 - [검색]
-
+- [고지식한 패턴 검색 알고리즘]
+- [카프-라빈 알고리즘]
+- [KMP 알고리즘]
+- [보이어-무어 알고리즘]
 
 ---
 
