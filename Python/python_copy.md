@@ -34,4 +34,4 @@ print(a, copy_a)
 ```
 
 ### 깊은 복사
-` import copy ` 로 모듈을 불러온뒤에 `copy.deepcopt()`를 사용해서 복사한다.
+` import copy ` 로 모듈을 불러온뒤에 `copy.deepcopy()`를 사용해서 복사한다.
