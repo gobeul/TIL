@@ -21,7 +21,7 @@
 - [sort()](https://github.com/gobeul/TIL/tree/master/algorithm/sort.md)
 - [비트연산자]
 - [검색]
-
+- [동작시간 줄여보기](https://github.com/gobeul/TIL/tree/master/algorithm/operating_time_reduce.md)
 
 ---
 
