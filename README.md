@@ -17,18 +17,21 @@
 - [정렬 : 버블 정렬(bubble sort)](https://github.com/gobeul/TIL/tree/master/algorithm/bubble_sort.md)
 - [정렬 : 카운팅 정렬(counting sort)](https://github.com/gobeul/TIL/tree/master/algorithm/counting_sort.md)
 - [정렬 : 선택 정렬(counting sort)](https://github.com/gobeul/TIL/tree/master/algorithm/selection_sort.md)
-- [deque 자료구조](https://github.com/gobeul/TIL/tree/master/algorithm/deque.md)
+- [자료구조 : stack](https://github.com/gobeul/TIL/tree/master/algorithm/stack.md)
+- [자료구조 : deque](https://github.com/gobeul/TIL/tree/master/algorithm/deque.md)
+- [재귀함수](https://github.com/gobeul/TIL/tree/master/algorithm/recursive_call.md)
+- [조합론 : 순열](https://github.com/gobeul/TIL/tree/master/algorithm/permutation.md)
+- [Dynamic Programming](https://github.com/gobeul/TIL/tree/master/algorithm/dynamic_programming.md)
+- [DFS, BFS](https://github.com/gobeul/TIL/tree/master/algorithm/dfs_bfs.md)
 - [sort()](https://github.com/gobeul/TIL/tree/master/algorithm/sort.md)
 - [비트연산자]
 - [검색]
-<<<<<<< HEAD
 - [동작시간 줄여보기](https://github.com/gobeul/TIL/tree/master/algorithm/operating_time_reduce.md)
 =======
 - [고지식한 패턴 검색 알고리즘]
 - [카프-라빈 알고리즘]
 - [KMP 알고리즘]
 - [보이어-무어 알고리즘]
->>>>>>> f9b9b18025eebc672018b7b95d924ad7c2149893
 
 ---
 
@@ -140,6 +143,7 @@ https://syllaverse.com/courses/11
     - [filter](https://github.com/gobeul/TIL/tree/master/Python/function_filter.md)
     - [zip](https://github.com/gobeul/TIL/tree/master/Python/function_zip.md)
     - [lambda](https://github.com/gobeul/TIL/tree/master/Python/function_lambda.md)
+    - [global](https://github.com/gobeul/TIL/tree/master/Python/function_global.md)
   - [형변환](https://github.com/gobeul/TIL/tree/master/Python/typecasting.md)
   - [requests 모듈 사용하기](https://github.com/gobeul/TIL/tree/master/Python/module_requests.md)
   - [json 으로 자료 읽어오기](https://github.com/gobeul/TIL/tree/master/Python/module_json.md)
