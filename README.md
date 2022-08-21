@@ -7,8 +7,6 @@
 
 > 1. 공부한게 없다면 커밋하지 않는다. 정직하게 하자.
 
-
-
 ---
 
 ### 알고리즘
@@ -24,14 +22,12 @@
 - [Dynamic Programming](https://github.com/gobeul/TIL/tree/master/algorithm/dynamic_programming.md)
 - [DFS, BFS](https://github.com/gobeul/TIL/tree/master/algorithm/dfs_bfs.md)
 - [sort()](https://github.com/gobeul/TIL/tree/master/algorithm/sort.md)
+- [max, min](https://github.com/gobeul/TIL/tree/master/algorithm/maxmin.md)
 - [비트연산자]
 - [검색]
 - [동작시간 줄여보기](https://github.com/gobeul/TIL/tree/master/algorithm/operating_time_reduce.md)
-=======
-- [고지식한 패턴 검색 알고리즘]
-- [카프-라빈 알고리즘]
-- [KMP 알고리즘]
-- [보이어-무어 알고리즘]
+- 기타 모듈
+  - [re] 
 
 ---
 
