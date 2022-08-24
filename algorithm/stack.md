@@ -77,4 +77,71 @@ if top > -1: # pop()
 ### Function call 재귀?
 가장 마지막에 호출된 함수가 가장 먼저 실행을 완료하고 복귀하는 후입 선출 구조로 스택과 같다.
 
+---
+### 스택을 이용한 후위 표기법
+- ISP == 스택안에서 우선 순위
+- ICP == 대조 대상(보통 스택안의 요소?)과의 우선순위
+- `"("` == 무조건 스택에 쌓는다. (여는 괄호)
+- `")"` == 등장하면 `"("` 가 나올 때까지 pop
 
+> 스택을 이용하는게 목적이기 때문에 eval() 없이 구현해보자.
+
+```python
+str1 = "2+3*4/5"
+stack = []
+result = ""
+for char in "*/+-()":
+    # 연산자
+    if not stack: # 스택에 아무것도 없다면
+        stack.append(char)
+
+    elif char == "(" : # 최고 우선 순위
+        stack.append(char)
+
+    elif char in "*/":
+        while stack ans stack[-1] in "*/":
+            result += stack.pop()
+        stack.append(char)
+
+    elif char in "+-":
+        while stack and stack[-1] != "(" :
+            result += stack.pop()
+        stack.append(char)
+
+    elif char == ")" :
+      while stack and stack[-1] != "(" :
+        result += stack.pop()
+      stack.pop()
+
+    # 피 연산자
+    else:
+      result += char
+while stack:
+  result += stack.pop()
+
+```
+
+
+```python
+def my_eval():
+  """
+  1. word : 연산할 계산식(후위표기법)
+  2. stack : 결과
+  return stack
+  """
+    for char in word:
+        if char not in "*/+-":
+            stack.append(int(char))
+        else:
+            x = stack.pop()
+            y = stack.pop()
+            if char == "+":
+                stack.append(y + x)
+            elif char == "-":
+                stack.append(y - x)
+            elif char == "*":
+                stack.append(y * x)
+            elif char == "/":
+                stack.append(y / x)
+    return stack[-1]
+```
