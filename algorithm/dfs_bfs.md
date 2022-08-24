@@ -2,7 +2,6 @@
 
 비선형 구조인 그래프(1:N 인 자료구조)는 표현된 모든 자료를 빠짐없이 검색하는 것이 중요함!
 
-
 ---
 # DFS 깊이 우선 탐색 Depth First Search
 스택과 관련이 있음!
@@ -27,3 +26,13 @@ DFS의 방법중에 스택을 사용할 수 있구나! (O)<br>
 
 ---
 # BFS 너비 우선 탐색 Breadth First Search
+탐색 시작점의 인접한 정점들을 먼저 모두 차례로 방문한 후에 방문한 정점을 기준으로 다시 인접한 정점을 차례로 방문하는 방식이다.
+
+인접한 정점들에 대해 탐색 후 차례로 다시 BFS를 진행해야 함으로 선입선출의 Queue를 사용한다.
+
+### deque 모듈을 이용하여 front, rear 의 변수명 없이 사용가능함.
+```python
+from collections import deque
+
+deq = deque()
+```

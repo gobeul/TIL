@@ -17,6 +17,8 @@
 - [정렬 : 선택 정렬(counting sort)](https://github.com/gobeul/TIL/tree/master/algorithm/selection_sort.md)
 - [자료구조 : stack](https://github.com/gobeul/TIL/tree/master/algorithm/stack.md)
 - [자료구조 : deque](https://github.com/gobeul/TIL/tree/master/algorithm/deque.md)
+- [자료구조 : Queue](https://github.com/gobeul/TIL/tree/master/algorithm/queue.md)
+  - - [큐 활용 : 버퍼(Buffer)](https://github.com/gobeul/TIL/tree/master/algorithm/buffer.md)
 - [재귀함수](https://github.com/gobeul/TIL/tree/master/algorithm/recursive_call.md)
 - [조합론 : 순열](https://github.com/gobeul/TIL/tree/master/algorithm/permutation.md)
 - [Dynamic Programming](https://github.com/gobeul/TIL/tree/master/algorithm/dynamic_programming.md)
