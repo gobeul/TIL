@@ -154,14 +154,14 @@ https://syllaverse.com/courses/11
 
 ---
 ### WEB
-- [웹 사이트](https://github.com/gobeul/TIL/tree/master/WEB/web_site.md)
+- [웹](https://github.com/gobeul/TIL/tree/master/WEB/web.md)
 웹사이트란 브라우저를 통해서 접속하는 웹 페이지(문서)들의 모음을 말하며 "링크"를 통해서 여러 웹 페이지를 연결한것을 뜻한다.
 - [HTML](https://github.com/gobeul/TIL/tree/master/WEB/HTML.md)
 - [CSS](https://github.com/gobeul/TIL/tree/master/WEB/CSS.md)
   - [참고](https://github.com/gobeul/TIL/tree/master/WEB/CSS_refer.md)
 - [ㄱㄱ](https://github.com/gobeul/TIL/tree/master/WEB/ㄱㄱ.md)
 - [부트스트랩]
-
+- [장고](https://github.com/gobeul/TIL/tree/master/WEB/django.md)
 
 p 태그, span 태그 차이가 뭐지
 p = 패러그래프 = 본문 ( 한줄 다씀. = 블록요소)
