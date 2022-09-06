@@ -162,7 +162,8 @@ https://syllaverse.com/courses/11
 - [ㄱㄱ](https://github.com/gobeul/TIL/tree/master/WEB/ㄱㄱ.md)
 - [부트스트랩]
 - [장고](https://github.com/gobeul/TIL/tree/master/WEB/django.md)
-  [페이지 오류](https://github.com/gobeul/TIL/tree/master/WEB/page_error.md)
+
+[페이지 오류](https://github.com/gobeul/TIL/tree/master/WEB/page_error.md)
 
 ---
 ### Database
@@ -171,7 +172,3 @@ https://syllaverse.com/courses/11
 set 자료형에서..
 {1, 2} == {2, 1} 이거 트루임!!!
 =======
----
-개념
-스타일 우선순위?
->>>>>>> 47756f98669d72f464763d877f45f85588963d68
