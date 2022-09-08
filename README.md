@@ -18,7 +18,7 @@
 - [자료구조 : stack](https://github.com/gobeul/TIL/tree/master/algorithm/stack.md)
 - [자료구조 : deque](https://github.com/gobeul/TIL/tree/master/algorithm/deque.md)
 - [자료구조 : Queue](https://github.com/gobeul/TIL/tree/master/algorithm/queue.md)
-  - - [큐 활용 : 버퍼(Buffer)](https://github.com/gobeul/TIL/tree/master/algorithm/buffer.md)
+  - [큐 활용 : 버퍼(Buffer)](https://github.com/gobeul/TIL/tree/master/algorithm/buffer.md)
 - [재귀함수](https://github.com/gobeul/TIL/tree/master/algorithm/recursive_call.md)
 - [조합론 : 순열](https://github.com/gobeul/TIL/tree/master/algorithm/permutation.md)
 - [Dynamic Programming](https://github.com/gobeul/TIL/tree/master/algorithm/dynamic_programming.md)
@@ -96,24 +96,9 @@ Git 이란? 분산 + 버전관리 + 시스템<br>
 - [push](https://github.com/gobeul/TIL/tree/master/GIT/push.md)
 - [Remote Repsoitory 연결하기](https://github.com/gobeul/TIL/tree/master/GIT/conect_remote_Repo.md)
 - [Repository 만들기](https://github.com/gobeul/TIL/tree/master/GIT/creat_Repo.md)
-  - push, clone, pull
-    - push : 업로드의 개념
-    - clone : 다운로드의 개념
-      다른 사람이 만든 Repo를 자신의 Local로 가져올려고<br>
-      git colne {다운받을 Repo 주소 url}
-    - pull : 업데이트의 개념<br>
-      git pull origin mater<br>
-      항상 push 전에는 항상 push 전에는 pull 을 한다.<br>
-      왜? 다른사람이 먼저 뭔가를 수정해서 커밋했을 수도 있으니깐 버전충돌 방지<br>
-      pull push 풀푸시 기억하자.<br>
-      <br>
-
-
+- [push, clone, pull](https://github.com/gobeul/TIL/tree/master/GIT/git_push_clone_pull.md)
 - [branch](https://github.com/gobeul/TIL/tree/master/GIT/branch.md)
 - [gitignore](https://github.com/gobeul/TIL/tree/master/GIT/gitignore.md)
-
-질문 사이트
-https://syllaverse.com/courses/11
 
   ---
   ### PYTHON
@@ -162,6 +147,12 @@ https://syllaverse.com/courses/11
 - [ㄱㄱ](https://github.com/gobeul/TIL/tree/master/WEB/ㄱㄱ.md)
 - [부트스트랩]
 - [장고](https://github.com/gobeul/TIL/tree/master/WEB/django.md)
+  - [장고 : Form](https://github.com/gobeul/TIL/tree/master/WEB/django_form.md)
+  - [장고 : Model Form](https://github.com/gobeul/TIL/tree/master/WEB/django_modelform.md)
+  - [장고 : Custom User Model](https://github.com/gobeul/TIL/tree/master/WEB/django_custom_user_model.md)
+  - [~~ing 장고 : Handling HTTP request](https://github.com/gobeul/TIL/tree/master/WEB/django_handling_http_req.md)
+  - [장고 : 인증 시스템](https://github.com/gobeul/TIL/tree/master/WEB/django_duthentication_system.md)
+
 
 [페이지 오류](https://github.com/gobeul/TIL/tree/master/WEB/page_error.md)
 
@@ -169,6 +160,4 @@ https://syllaverse.com/courses/11
 ### Database
 - [기초](https://github.com/gobeul/TIL/tree/master/Database/base.md)
 
-set 자료형에서..
-{1, 2} == {2, 1} 이거 트루임!!!
-=======
+---

@@ -86,9 +86,4 @@ deq.sort()
 print(deq)
 >> ['h', 'n', 'o', 'p', 't', 'y']
 ```
-
-
 ---
-### 관련문제
-- [백준 2747번](https://www.acmicpc.net/problem/2747)
-- [백준 2309번](https://www.acmicpc.net/problem/2309)
