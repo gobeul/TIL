@@ -147,6 +147,7 @@ Git 이란? 분산 + 버전관리 + 시스템<br>
 - [ㄱㄱ](https://github.com/gobeul/TIL/tree/master/WEB/ㄱㄱ.md)
 - [부트스트랩]
 - [장고](https://github.com/gobeul/TIL/tree/master/WEB/django.md)
+  - [장고 : Model 사용하기](https://github.com/gobeul/TIL/tree/master/WEB/django_model.md)
   - [장고 : Form](https://github.com/gobeul/TIL/tree/master/WEB/django_form.md)
   - [장고 : Model Form](https://github.com/gobeul/TIL/tree/master/WEB/django_modelform.md)
   - [장고 : Custom User Model](https://github.com/gobeul/TIL/tree/master/WEB/django_custom_user_model.md)
