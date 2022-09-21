@@ -21,6 +21,7 @@
   - [큐 활용 : 버퍼(Buffer)](https://github.com/gobeul/TIL/tree/master/algorithm/buffer.md)
 - [재귀함수](https://github.com/gobeul/TIL/tree/master/algorithm/recursive_call.md)
 - [조합론 : 순열](https://github.com/gobeul/TIL/tree/master/algorithm/permutation.md)
+- [조합론 : 조합](https://github.com/gobeul/TIL/tree/master/algorithm/combination.md)
 - [Dynamic Programming](https://github.com/gobeul/TIL/tree/master/algorithm/dynamic_programming.md)
 - [DFS, BFS](https://github.com/gobeul/TIL/tree/master/algorithm/dfs_bfs.md)
 - [sort()](https://github.com/gobeul/TIL/tree/master/algorithm/sort.md)
