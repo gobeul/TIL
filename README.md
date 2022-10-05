@@ -21,6 +21,8 @@
   - [큐 활용 : 버퍼(Buffer)](https://github.com/gobeul/TIL/tree/master/algorithm/buffer.md)
 - [재귀함수](https://github.com/gobeul/TIL/tree/master/algorithm/recursive_call.md)
 - [조합론 : 순열과 조합 모듈없이 구현해보기](https://github.com/gobeul/TIL/tree/master/algorithm/permutation_&_combination.md)
+- [최소 신장 트리 MST](https://github.com/gobeul/TIL/tree/master/algorithm/mst.md)
+  - [Prim 알고리즘](https://github.com/gobeul/TIL/tree/master/algorithm/prim.md)
 - [Dynamic Programming](https://github.com/gobeul/TIL/tree/master/algorithm/dynamic_programming.md)
 - [DFS, BFS](https://github.com/gobeul/TIL/tree/master/algorithm/dfs_bfs.md)
 - [sort()](https://github.com/gobeul/TIL/tree/master/algorithm/sort.md)
@@ -159,6 +161,6 @@ Git 이란? 분산 + 버전관리 + 시스템<br>
 
 ---
 ### Database
-- [기초](https://github.com/gobeul/TIL/tree/master/Database/base.md)
+- [기초](https://github.com/gobeul/TIL/tree/master/database/base.md)
 
 ---
