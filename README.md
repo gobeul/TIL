@@ -162,5 +162,7 @@ Git 이란? 분산 + 버전관리 + 시스템<br>
 ---
 ### Database
 - [기초](https://github.com/gobeul/TIL/tree/master/database/base.md)
-
+- [ORM](https://github.com/gobeul/TIL/tree/master/database/orm.md)
+- [SQL](https://github.com/gobeul/TIL/tree/master/database/sql.md)
+  - [SQL 명령어](https://github.com/gobeul/TIL/tree/master/database/sql_command.md)
 ---
