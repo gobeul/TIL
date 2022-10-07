@@ -1,8 +1,9 @@
 # TIL
 
->#### Today I Learn
+> #### Today I Learn
 
 ---
+
 ### 기본 룰
 
 > 1. 공부한게 없다면 커밋하지 않는다. 정직하게 하자.
@@ -10,6 +11,7 @@
 ---
 
 ### 알고리즘
+
 - [2차원 배열 팁](https://github.com/gobeul/TIL/tree/master/algorithm/two_arr_tip.md)
 - [유클리드 호제법_ 초대공약수(GCD)와 최소공배수(LCM)](https://github.com/gobeul/TIL/tree/master/algorithm/euclidean_algorithm.md)
 - [정렬 : 버블 정렬(bubble sort)](https://github.com/gobeul/TIL/tree/master/algorithm/bubble_sort.md)
@@ -40,70 +42,82 @@
 - 마크다운을 쓰는 이유는?
   개발자로서 프로그램을 구현하다 보면 문서작업을 할 경우가 많이 있는데 이를 위해 문서의 구조와 내용을 쉽고 빠르게 나타내기 위함.<br>
   **개발의 코드를 문서답게**
-  
+
 - README.md<br>
   md는 마크다운의 준말
   
   - md 명령어
+    
     - **#** : 제목표시, 1개부터 6개까지 사용가능
     
     - 리스트
-  
+      
       - **1., 2., ... **: 순서가 있는 리스트
       - **- or * **: 순서가 없는 리스트
         - tab 키를 써서 하위 리스트 생성 가능
     
     - 코드블럭
       **\```{사용언어}```**
-    
+      
       ```python
       print("Hello world!!")
       # python 코드블럭 사용 예시 
       ```
-    
+      
       ` 을 양쪽에 한개씩 붙여서 
-    
+      
        문장안에 코드블럭 `print("Hello")` 을 넣는 것도 가능.
     
     - 링크 넣기
       
       **\[string(문자)](url 주소)**
-    
-      예시)  \[네이버](https://www.naver.com) => [네이버](https://www.naver.com)
       
+      예시)  \[네이버](https://www.naver.com) => [네이버](https://www.naver.com)
+    
     - 이미지 넣기<br>
       **\[스트링(없어도됨)](이미지 경로)**
-      
+    
     - 텍스트 관련<br>
       볼드체 : \*\*문자열** or \__문자열__ =  **문자열**<br>
       이텔릭 : \*문자열\* or \_문자열\_ = *문자열*<br>
       취소선 : \~~문자열~~ = ~~문자열~~<br>
       다 한꺼번에 적용 가능 : *__~~문자열~~__*
-      
+    
     - 수평선<br>
       --- or --- or ***
-      
-    - 수직선 : >
     
+    - 수직선 : >
 
 ---
 
 ### GIT
+
 Git 이란? 분산 + 버전관리 + 시스템<br>
+
 > git hub 는 git 을 이용한 클라우드 서비스이다.
 
 - [clone](https://github.com/gobeul/TIL/tree/master/GIT/clone.md)
-- [commit 하기](https://github.com/gobeul/TIL/tree/master/GIT/commit.md)
-- [git bash 명령어](https://github.com/gobeul/TIL/tree/master/GIT/git_bash_cmd.md)
-- [push](https://github.com/gobeul/TIL/tree/master/GIT/push.md)
-- [Remote Repsoitory 연결하기](https://github.com/gobeul/TIL/tree/master/GIT/conect_remote_Repo.md)
-- [Repository 만들기](https://github.com/gobeul/TIL/tree/master/GIT/creat_Repo.md)
-- [push, clone, pull](https://github.com/gobeul/TIL/tree/master/GIT/git_push_clone_pull.md)
-- [branch](https://github.com/gobeul/TIL/tree/master/GIT/branch.md)
-- [gitignore](https://github.com/gobeul/TIL/tree/master/GIT/gitignore.md)
 
+- [commit 하기](https://github.com/gobeul/TIL/tree/master/GIT/commit.md)
+
+- [git bash 명령어](https://github.com/gobeul/TIL/tree/master/GIT/git_bash_cmd.md)
+
+- [push](https://github.com/gobeul/TIL/tree/master/GIT/push.md)
+
+- [Remote Repsoitory 연결하기](https://github.com/gobeul/TIL/tree/master/GIT/conect_remote_Repo.md)
+
+- [Repository 만들기](https://github.com/gobeul/TIL/tree/master/GIT/creat_Repo.md)
+
+- [push, clone, pull](https://github.com/gobeul/TIL/tree/master/GIT/git_push_clone_pull.md)
+
+- [branch](https://github.com/gobeul/TIL/tree/master/GIT/branch.md)
+
+- [gitignore](https://github.com/gobeul/TIL/tree/master/GIT/gitignore.md)
+  
   ---
+  
   ### PYTHON
+  
   - [기초](https://github.com/gobeul/TIL/tree/master/Python/basics.md)
   - 메서드
     - [문자열(string)](https://github.com/gobeul/TIL/tree/master/Python/method_string.md)
@@ -136,13 +150,15 @@ Git 이란? 분산 + 버전관리 + 시스템<br>
     - 클래스 메서드와 스태틱 메서드의 차이..!
     - [문법](https://github.com/gobeul/TIL/tree/master/Python/python_oop_grammar.md)
     - [OOP의 핵심 개념 - 추상화, 상속, 다형성, 캡슐화](https://github.com/gobeul/TIL/tree/master/Python/python_oop_core.md)
-  
+
 <br>
 
 ---
+
 ### WEB
+
 - [웹](https://github.com/gobeul/TIL/tree/master/WEB/web.md)
-웹사이트란 브라우저를 통해서 접속하는 웹 페이지(문서)들의 모음을 말하며 "링크"를 통해서 여러 웹 페이지를 연결한것을 뜻한다.
+  웹사이트란 브라우저를 통해서 접속하는 웹 페이지(문서)들의 모음을 말하며 "링크"를 통해서 여러 웹 페이지를 연결한것을 뜻한다.
 - [HTML](https://github.com/gobeul/TIL/tree/master/WEB/HTML.md)
 - [CSS](https://github.com/gobeul/TIL/tree/master/WEB/CSS.md)
   - [참고](https://github.com/gobeul/TIL/tree/master/WEB/CSS_refer.md)
@@ -156,13 +172,17 @@ Git 이란? 분산 + 버전관리 + 시스템<br>
   - [~~ing 장고 : Handling HTTP request](https://github.com/gobeul/TIL/tree/master/WEB/django_handling_http_req.md)
   - [장고 : 인증 시스템](https://github.com/gobeul/TIL/tree/master/WEB/django_duthentication_system.md)
 
-
 [페이지 오류](https://github.com/gobeul/TIL/tree/master/WEB/page_error.md)
 
 ---
+
 ### Database
+
 - [기초](https://github.com/gobeul/TIL/tree/master/database/base.md)
 - [ORM](https://github.com/gobeul/TIL/tree/master/database/orm.md)
 - [SQL](https://github.com/gobeul/TIL/tree/master/database/sql.md)
   - [SQL 명령어](https://github.com/gobeul/TIL/tree/master/database/sql_command.md)
+
 ---
+
+![](README_assets/2022-10-07-16-50-33-image.png)
