@@ -184,5 +184,3 @@ Git 이란? 분산 + 버전관리 + 시스템<br>
   - [SQL 명령어](https://github.com/gobeul/TIL/tree/master/database/sql_command.md)
 
 ---
-
-![](README_assets/2022-10-07-16-50-33-image.png)
